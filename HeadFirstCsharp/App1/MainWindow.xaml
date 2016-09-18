@@ -64,7 +64,7 @@
                 <Rectangle Fill="White" Height="25" Width="10"/>
             </StackPanel>
             <TextBlock x:Name="gameOverText" Canvas.Left="240" TextWrapping="Wrap" Text="Game Over" Canvas.Top="205" FontFamily="Arial" FontSize="100" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Rectangle x:Name="target" Height="50" Canvas.Left="710" Canvas.Top="385" Width="50" RenderTransformOrigin="0.5,0.5" MouseEnter="target_MouseEnter">
+            <Rectangle x:Name="target" Height="50" Canvas.Left="735" Canvas.Top="380" Width="50" RenderTransformOrigin="0.5,0.5" MouseEnter="target_MouseEnter">
                 <Rectangle.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
